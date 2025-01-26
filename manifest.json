@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Wire",
+    "version": "1.0",
+  
+    "description": "Speaks with Wire CLI",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.overthewire.org/*"],
+        "js": [
+            "service.js"
+        ]
+      }
+    ]
+  }
+  
